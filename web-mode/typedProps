@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: typedProps
+# key: tp
+# --
+
+type Props = { $1 } & Partial<DefaultProps>;
+
+type DefaultProps = Readonly<typeof defaultProps>;
+
+const defaultProps = { $2 };
