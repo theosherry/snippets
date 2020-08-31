@@ -1,0 +1,4 @@
+# key: set
+# name: setDefinition
+# --
+\left\\{$1 \mid $2 \right\\}$0

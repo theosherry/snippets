@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Theorem
+# key: t
+# --
+#+begin_theorem
+$1
+#+end_theorem
