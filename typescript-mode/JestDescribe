@@ -1,0 +1,6 @@
+# key: describe
+# name: JestDescribe
+# --
+describe(\`$1\`, () => {
+  $2
+}); $0
