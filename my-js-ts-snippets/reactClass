@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: reactClass
+# key: class
+# --
+class $1 extends Component<Props> {
+  static defaultProps = defaultProps;
+
+  constructor(props: Props) {
+    super(props);
+    $0
+  }
+}
